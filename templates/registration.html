@@ -1,0 +1,16 @@
+<form method="POST">
+  <div class="container">
+    <label for="Username"><b>Username</b></label>
+    <input type="text" placeholder="" name="Username" required />
+
+    <label for="Password"><b>Password</b></label>
+    <input type="password" placeholder="" name="Password" required />
+
+    <button type="submit">Create account</button>
+  </div>
+</form>
+
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename= 'css/registration.css') }}"
+/>
